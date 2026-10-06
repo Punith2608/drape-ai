@@ -1,0 +1,19 @@
+# Core deterministic virtual try-on pipeline
+numpy>=1.26
+opencv-python>=4.8
+scipy>=1.10
+
+# Optional ComfyUI refinement client
+requests>=2.31
+
+# Optional SAM-based mask generation (segment_test.py)
+torch>=2.1
+torchvision>=0.16
+segment-anything==1.0
+
+# Optional OpenPose landmark utilities (pose/)
+controlnet-aux>=0.0.10
+Pillow>=10.0
+
+# Optional mask inspection utility (base_models/front/check_bottom.py)
+matplotlib>=3.7

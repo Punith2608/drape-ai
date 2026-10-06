@@ -1,0 +1,50 @@
+# Python environments
+venv/
+.venv/
+env/
+Backend/vto_env/
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node
+Frontend/node_modules/
+Frontend/dist/
+
+# Generated/cache
+*.log
+Backend/generated/
+Backend/outputs/*
+Backend/uploads/*
+
+# Large ML models / archives
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.zip
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Backups
+*_backup.py
+*.backup
